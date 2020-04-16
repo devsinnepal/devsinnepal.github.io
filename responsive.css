@@ -1,0 +1,136 @@
+
+@media screen and (max-width: 1700px) {
+     
+}
+@media screen and (max-width: 1200px) {
+    
+  
+}
+ 
+
+@media screen and (max-width: 900px) {
+    
+input[type=text] , input[type=number], textarea{
+  width: 100%;
+  background: green
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-logo img {
+ width:18.5rem; }
+.footer-img img {
+  width: 50%
+}
+}
+@media screen and (max-width: 800px) {
+    
+input[type=text] , input[type=number], textarea{
+  width: 100%;
+  background: green
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-logo img {
+ width:18.5rem; }
+.footer-img img {
+  width: 50%
+}
+}
+ 
+@media screen and (max-width: 767px) {
+     
+input[type=text] , input[type=number], textarea{
+  width: 100%;
+  background: green
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-logo img {
+ width:18.5rem; }
+.footer-img img {
+  width: 50%
+}
+   
+
+@media screen and (max-width: 675px) {
+    
+input[type=text] , input[type=number], textarea{
+  width: 100%;
+  background: green
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-logo img {
+ width:18.5rem; }
+.footer-img img {
+  width: 50%
+}
+}
+@media screen and (max-width: 620px) {
+     
+input[type=text] , input[type=number], textarea{
+  width: 100%;
+  background: green
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-logo img {
+ width:18.5rem; }
+.footer-img img {
+  width: 50%
+} 
+    
+}
+@media screen and (max-width: 420px) {
+ 
+   
+  
+input[type=text] , input[type=number], textarea{
+  width: 100%;
+  background: green
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-logo img {
+ width:18.5rem; }
+.footer-img img {
+  width: 50%
+}  
+
+
+@media screen and (max-width: 360px) {
+  
+ 
+input[type=text] , input[type=number], textarea{
+  width: 100%;
+  background: green
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-logo img {
+ width:28.5rem; }
+.footer-img img {
+  width: 50%
+}
+}

@@ -1,49 +1,11 @@
-
-@media screen and (max-width: 1700px) {
-     
-}
-@media screen and (max-width: 1200px) {
-    
-  
-}
+ 
+ 
  
 
-@media screen and (max-width: 900px) {
-    
-input[type=text] , input[type=number], textarea{
-  width: 100%;
-  background: green
-  padding: 14px 20px;
-  margin: 8px 0;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.nav-logo img {
- width:18.5rem; }
-.footer-img img {
-  width: 50%
-}
-}
-@media screen and (max-width: 800px) {
-    
-input[type=text] , input[type=number], textarea{
-  width: 100%;
-  background: green
-  padding: 14px 20px;
-  margin: 8px 0;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.nav-logo img {
- width:18.5rem; }
-.footer-img img {
-  width: 50%
-}
-}
- 
-@media screen and (max-width: 767px) {
+ @media screen and (max-width: 900px) {
+.picture-1 img, .picture-2 img , .picture-10 img {   
+      margin-top: 0px
+    }
      
 input[type=text] , input[type=number], textarea{
   width: 100%;
@@ -60,9 +22,13 @@ input[type=text] , input[type=number], textarea{
   width: 50%
 }
    
-
-@media screen and (max-width: 675px) {
-    
+}
+ 
+@media screen and (max-width: 767px) {
+.picture-1 img, .picture-2 img , .picture-10 img {   
+      margin-top: 0px
+    }
+     
 input[type=text] , input[type=number], textarea{
   width: 100%;
   background: green
@@ -77,8 +43,35 @@ input[type=text] , input[type=number], textarea{
 .footer-img img {
   width: 50%
 }
+   
+}
+@media screen and (max-width: 675px) {
+
+
+  .picture-1 img, .picture-2 img , .picture-10 img {   
+      margin-top: 0px
+    }
+ input[type=text] , input[type=number], textarea{
+  width: 100%;
+  background: green
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-logo img {
+ width:18.5rem; }
+.footer-img img {
+  width: 50%
+}
+   
 }
 @media screen and (max-width: 620px) {
+ 
+  .picture-1 img, .picture-2 img ,.picture-10 img {  
+      margin-top: 0px
+    }
      
 input[type=text] , input[type=number], textarea{
   width: 100%;
@@ -98,7 +91,9 @@ input[type=text] , input[type=number], textarea{
 }
 @media screen and (max-width: 420px) {
  
-   
+  .picture-1 img, .picture-2 img ,.picture-10 img {  
+      margin-top: 0px
+    }
   
 input[type=text] , input[type=number], textarea{
   width: 100%;
@@ -114,11 +109,21 @@ input[type=text] , input[type=number], textarea{
 .footer-img img {
   width: 50%
 }  
+}
 
 
 @media screen and (max-width: 360px) {
   
- 
+  .picture-1 img, .picture-2 img ,.picture-10 img  {  
+      margin-top: 0px
+    }
+
+
+
+    .logo-png  {
+      width: 380px;
+      margin-left: -20px
+    }
 input[type=text] , input[type=number], textarea{
   width: 100%;
   background: green

@@ -1,17 +1,26 @@
 body {
 	font-family: 'Lato', sans-serif;
+	line-height: 26.5px; 
+	width: 100%;
+	overflow-x: hidden;
 }
 .menuofml li{
-	padding-right: 15px;
-	font-size: 16px
+	 
+	font-size: 16px;
+	padding: 10px
+}
+nav {
+	width: 100%
+}
 
+nav img {
+	width: 100%!important
 }
-.ul-menu-margin{
-	margin-left: 165px
-}
+
+ 
 
 .bkground-div {
-	background: #363636;
+	background: url(img/hero_pattern.png);
 	color: white;
 	text-align: center;
 	font-size: 20px
@@ -23,14 +32,15 @@ body {
 }
 
 .footer {
-	background: #fafafa;
+	background: #eaecf0;
 }
 
 .submit-pink {
-	background: #e84991;
-	border:1px solid #e84991;
-	width: 10rem;
-	border-radius: 5px
+    background: #ffffff;
+    border: 2px solid #000000;
+    width: 10rem;
+    color: white;
+    color: #060000;
 }
   .text-pink {
 
@@ -46,8 +56,15 @@ body {
 	font-size:1.5rem;
 }
 
+.see-more-align  {
+	 
+	 margin: auto;
+	color: #e84991;
+	font-size: 25px 
+}
+
 input[type=text] , input[type=number], textarea{
-  width: 30rem;
+  width: 34rem;
   padding: 10px;
   margin: 4px 0;
   border-radius: 4px;
@@ -57,3 +74,99 @@ input[type=text] , input[type=number], textarea{
 .pink-colored {
 	color:#e84991;
 }
+
+.solutions-bg {
+	background: #eaecf0;
+	font-size: 
+}
+
+.fontsize-solutions  {
+	font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: .02em;
+}
+
+.active-color {
+	color:#e84991!important;
+}
+.bkground-photos {
+	background: url(img/pic-1.png);
+}
+
+.background-black {
+	background:#051325;
+	color: white;
+	     z-index: 1;
+	     
+	      
+}
+
+.background-black h1 {
+	font-family: Calluna;
+	src: url(../fonts/Calluna-Regular.otf)
+}
+
+.background-black h6 {
+	font-family: FuturaPT;
+	src:url(..fonts/FuturaPTLight.otf);
+}
+
+.background-black-2 {
+	background:#e84991;
+	color: white;
+	 
+}
+
+.background-black-pic3 {
+	background:#e84991;
+	color: white;
+	 
+}
+
+.background-black-pic4 {
+	background: #e84991;
+	color: white;
+	 
+}
+
+.background-black-pic5 {
+	background:#e84991;
+	color: white;
+	 
+}
+.background-black h6,.background-black-2 h6,.background-black-pic5 h6,.background-black-pic4 h6,.background-black-pic3 h6{
+	line-height: 26.5px;
+	 
+}
+
+.background-black-pic5 {
+	background: #e84991;
+	color: white;
+	 
+}
+
+
+.pictures {
+	background: #f1f0f0 
+}
+
+.justify {
+	text-align: justify;
+}
+
+.textleft {
+	text-align:left!important
+}
+
+ 
+
+.pink-colored p{
+	line-height: 12px
+}
+
+
+
+
+

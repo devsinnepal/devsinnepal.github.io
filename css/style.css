@@ -1,0 +1,154 @@
+body {
+	background: #eaecf1;
+	overflow-x: hidden;
+	margin: auto;
+}
+.background-of-menu {
+	background: #eaecf1;
+	font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: .05em;
+    text-transform: lowercase;
+    line-height: 1em;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(232, 73, 145);
+}
+
+.second-section-background {
+	background: url(../image/hero_pattern.png);
+	color: white;
+	width: 100%;
+	
+
+}
+.second-section-background h5 {
+	 font-size: 17.65px;
+	 color:#ff1493;
+	 font-weight: 700;
+}
+
+.projects-color {
+	color : rgb(232, 73, 145);
+	font-size: 20px;
+}
+
+.background-positioning {
+	background: #051325;
+	color: #8a8b8d;
+}
+
+.background-positioning h2 {
+	font-size: 51.9221px;
+	font-family: FuturaPT;
+	src:url(..fonts/Futura-2/FuturaPTLBold.otf);
+	color: white
+}
+
+ 
+.background-positioning h5 {
+	letter-spacing: 0.4px;
+	line-height: 26px;
+	 font-size: 17.26px;
+	 font-family: futura, sans-serif;
+	src:url(..fonts/futura/FuturaPTCondBook.otf);
+	 font-style: normal;
+	 font-weight: 400
+	 
+}
+
+.end-position {
+	position: absolute;
+	left: 49%
+}
+
+.hr-line {
+	width: 90%;
+	
+	border: none;
+}
+
+.hr-line hr {
+
+	border: none;
+	height: 1px;
+	color: #bbb;
+    background-color: #bbb;
+}
+
+.margin-auto {
+	margin:auto;
+	font-size: 20px;
+	color: #ff1493;
+	font-weight: 400
+}
+
+.margin-auto-1 {
+	margin:auto;
+	font-weight: 300;
+	font-size:13.5px;
+	 color: rgba(8,27,51,.8);
+	font-family: futura, sans-serif;
+	src:url(..fonts/futura/FuturaPTLightOblique.otf);
+}
+
+input[type=text] , input[type=number], textarea{
+   
+  padding: 10px;
+  margin: 4px 0;
+  border:1px solid #ccc;
+}
+
+.Solutions h6 {
+	letter-spacing: 0.4px;
+	line-height: 26px;
+	 font-size: 15px;
+	 font-family: futura, sans-serif;
+	src:url(..fonts/futura/FuturaPTBoldOblique.otf);
+	 font-style: normal;
+	 font-weight: 345;
+	 color: #858082
+}
+
+.Solutions p {
+	letter-spacing: 0.32px;
+	line-height: 24px;
+	 font-size: 14.4px;
+	 font-family: futura, sans-serif;
+	 src:url(..fonts/futura/FuturaPTBoldOblique.otf);
+	 font-style: normal;
+	 font-weight: 100;
+	 color: rgba(8,27,51,.8)
+}
+
+.name {
+	font-size: 12px
+}
+
+.pink-colored {
+	color: rgb(255, 20, 147);
+	font-size: 14.5px
+}
+
+.footer {
+	font-family: futura, sans-serif;
+	 src:url(..fonts/futura/FuturaPTBoldOblique.otf);
+	 font-size: 14.5px
+}
+
+.submit-pink {
+	background-color: transparent;
+	border: 2px solid black; 
+}
+
+.pink {
+	color:black
+}
+
+
+
+
+
+

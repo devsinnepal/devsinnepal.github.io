@@ -1,0 +1,1336 @@
+
+@media only screen and (min-device-width:360px) and (max-device-width:420px) and (min-device-height:0px) {
+ 
+	body {
+		overflow-x: hidden
+	}
+
+	.background-of-menu {
+		width: 11rem; 
+	}
+
+	.second-section-background  {
+		margin-top: -3.5rem
+	}
+
+	.background-of-menu img{
+		margin-top: -2rem
+	}
+
+	.navbar-padding {
+		height: 20rem
+	}
+	 
+	.nav-button {
+		margin-top: -8.5rem;
+		margin-left: 11rem;
+
+	}
+
+	.projects-responsive{
+ 	margin-left: -1rem!important;
+ 	width: 100%
+ 		}
+
+	 .carousel {
+	 	width: 30.2rem;
+	 	margin-left: -4.8rem
+	 }
+.navbar-light .navbar-toggler {
+    color: yellow!important;
+     
+    border: none;
+     
+}
+ .projects-1 {
+	 	margin-left: -1rem
+	 }
+
+ .background-positioning h2 {
+ 	font-size: 24.5px
+ }
+
+.background-positioning h5 {
+	font-size: 10.1px;
+	font-weight:400;
+	letter-spacing:0.26px;
+	line-height:19.5px;
+}
+
+.trove {
+	margin-top: -1rem;
+	margin-bottom: 8.8rem
+}
+
+.feasibility-pic {
+	margin-top: -1rem;
+}
+
+.projects-responsive {
+	margin-top: 13rem;
+	margin-bottom: 13.5rem
+ }
+
+ .background-positioning  {
+ 	margin-left: 3rem!important;
+ 	width: 18.8rem;
+ 	margin-top: 7.5rem!important
+ }
+ .odd-pics {
+ 	margin-left:-4.4rem;
+ 	width: 21.8rem;
+ }
+
+ .end-position {
+ 	margin-left: -8.3rem!important
+ }
+
+ .first-picture {
+ 	margin-top: -10.5rem
+ }
+ .projects-featured {
+ 	margin-top: -4rem
+ }
+
+ .Solutions {
+ 	padding: 1px!important
+ }
+
+ .soltions-padding {
+ 	padding-left: 0px!important;
+ 	padding-right: 0px!important;
+ 	padding-bottom: 0px!important;
+ }
+
+ .footer{ 
+ 	margin-left: -4.1rem!important
+ }
+}
+
+
+@media only screen and (min-device-width:421px ) and (max-device-width:495px)  and (min-device-height:0px)  {
+body {
+		overflow-x: hidden;
+	}
+
+	 .projects-10 .end-position {
+    
+    position: absolute;
+    left: 14%;
+}
+
+.projects-1 { 
+	height: 380px;
+	margin-left: 1.5%
+}
+
+.projects-10 { 
+	height: 380px
+}
+
+ .trove-div {
+ 	height: 520px
+ }
+	 
+ 	
+ 	.background-of-menu img {
+ 		width: 19%!important;
+ 	 
+    }
+
+	 .projects-responsive{
+	 	margin-left: -1rem!important;
+	 	width: 100%
+	 }
+
+ 
+.background-positioning h2 {
+ 	font-size:19.8484px;
+font-style:normal;
+font-weight:300;
+letter-spacing:-0.338484px;
+line-height:33.8484px;
+
+ }
+
+.background-positioning h5 {
+	font-size:13px;
+font-style:normal;
+font-weight:400;
+letter-spacing:0.26px;
+line-height:19.5px;
+}
+
+  .nav-button {
+		margin-top: -8.5rem;
+		margin-left: 55%;
+
+	}
+
+	.background-of-menu {
+		 
+		 margin-left:34%
+	}
+
+	.background-of-menu img {
+
+	 	margin: auto
+ }
+
+ .navbar-light .navbar-toggler {
+    color: yellow!important;
+    border: none;
+    
+	}
+
+	.second-section-background h5 {
+		font-size:12px;
+		font-weight:700;
+	}
+
+.second-section-background h6 {
+		font-size:10px!important;
+font-weight:700;
+	}	
+.padding-of-navbar img {
+	margin-top: -2.3rem
+}
+
+.padding-of-navbar {
+	height: 29%
+}
+
+.second-section-background {
+	margin-top: -2.7rem
+}
+
+ .navbar-padding li {
+ 	margin-top: -0.9rem;
+ 	margin-bottom: 2rem
+ }
+
+.navbar-padding {
+	margin-top: -8%;
+}
+ 
+ .end-position{
+	position: absolute;
+	left: 40.5%
+}
+
+.carousel {
+	 margin-left: -4.2rem;
+	 width: 123.5%
+}
+
+.soltions-padding {
+	padding: 0px!important
+}
+
+.background-positioning h2 {
+	font-size:19.616px;
+font-style:normal;
+font-weight:300;
+line-height: 23px	
+}
+
+.projects-responsive {
+	
+	margin-left:10%;
+	width: 81.5%
+}
+ 
+.background-positioning {
+	width: 80%;
+	margin-left: 3%!important;
+	margin-top: 6rem!important;
+	margin-bottom:6rem!important 
+} 
+
+
+
+.pic img {
+	margin-left: 30%!important;
+}
+
+.odd-pics {
+	margin-left:-10.8% ; 
+}
+ 
+
+ }
+@media only screen and (min-device-width:495px ) and (max-device-width:600px)  and (min-device-height:0px)  {
+ 	body {
+		overflow-x: hidden;
+	}
+
+	 .projects-10 .end-position {
+    
+    position: absolute;
+    left: 14%;
+}
+
+.projects-1 { 
+	height: 350px;
+}
+
+.projects-10 { 
+	height: 350px
+}
+
+.trove-div {
+	height: 490px 
+}
+	 
+ 	
+ 	.background-of-menu img {
+ 		width: 19%!important;
+ 	 
+    }
+
+	 .projects-responsive{
+	 	margin-left: -1rem!important;
+	 	width: 100%
+	 }
+
+ 
+.background-positioning h2 {
+ 	font-size:33.8484px;
+font-style:normal;
+font-weight:300;
+letter-spacing:-0.338484px;
+line-height:33.8484px;
+
+ }
+
+.background-positioning h5 {
+	font-size:13px;
+font-style:normal;
+font-weight:400;
+letter-spacing:0.26px;
+line-height:19.5px;
+}
+
+  .nav-button {
+		margin-top: -8.5rem;
+		margin-left: 55%;
+
+	}
+
+	.background-of-menu {
+		 
+		 margin-left:34%
+	}
+
+	.background-of-menu img {
+
+	 	margin: auto
+ }
+
+ .navbar-light .navbar-toggler {
+    color: yellow!important;
+    border: none;
+    
+	}
+
+	.second-section-background h5 {
+		font-size:12px;
+		font-weight:700;
+	}
+
+.second-section-background h6 {
+		font-size:10px!important;
+font-weight:700;
+	}	
+.padding-of-navbar img {
+	margin-top: -2.3rem
+}
+
+.padding-of-navbar {
+	height: 29%
+}
+
+.second-section-background {
+	margin-top: -2.7rem
+}
+
+ .navbar-padding li {
+ 	margin-top: -0.9rem;
+ 	margin-bottom: 2rem
+ }
+
+.navbar-padding {
+	margin-top: -8%;
+}
+ 
+ .end-position{
+	position: absolute;
+	left: 40.5%
+}
+
+.carousel {
+	 margin-left: -4.2rem;
+	 width: 123.5%
+}
+
+.soltions-padding {
+	padding: 0px!important
+}
+
+.background-positioning h2 {
+	font-size:19.616px;
+font-style:normal;
+font-weight:300;
+line-height: 23px	
+}
+
+.projects-responsive {
+	
+	margin-left:10%;
+	width: 81.5%
+}
+ 
+.background-positioning {
+	width: 80%;
+	margin-left: 3%!important;
+	margin-top: 6rem!important;
+	margin-bottom:6rem!important 
+} 
+
+
+
+.pic img {
+	margin-left: 30%!important;
+}
+
+.odd-pics {
+	margin-left:-10.8% ; 
+}
+ 
+
+ }
+
+
+@media only screen and (min-device-width:601px ) and (max-device-width:768px)  and (min-device-height:0px)  {
+ 	body {
+		overflow-x: hidden;
+	}
+
+	.background-of-menu img {
+		width: 11rem!important; 
+		margin-top: -2rem
+	}
+
+	.navbar-light .navbar-toggler {
+    color: yellow!important;
+    border: none;
+    
+	}
+
+	.projects-1 {
+		height: 350px; 
+	}
+
+	.projects-10 {
+		height: 380px; 
+	}
+	.trove-div {
+		height: 475px;
+	}
+
+	 .odd-pics  {
+	 	width: 80%!important; 
+	 	margin-left: -9%!important
+	 }
+
+	.nav-button {
+		margin-top: -8.5rem;
+		margin-left: 55%
+	}
+
+	.background-of-menu {
+		 
+		 margin-left:37%
+	}
+
+	.second-section-background {
+	margin-top: -2.7rem
+}
+
+	
+ .navbar-padding li {
+ 	margin-top: -0.9rem;
+ 	margin-bottom: 2rem
+ }
+
+ .second-section-background h5 {
+		font-size:12px;
+		font-weight:700;
+	}
+
+.second-section-background h6 {
+		font-size:10px!important;
+font-weight:700;
+	}	
+
+.carousel {
+	 margin-left: -7.7%;
+	 width: 53.5rem
+}
+.background-positioning {
+	width: 50%;
+	margin-left: -1.2%!important;
+} 
+
+.background-positioning h2 {
+	font-size:30.3206px;
+font-style:normal;
+font-weight:300;
+line-height: 30.3206px	
+}
+
+.background-positioning h5 {
+	font-size:13px;
+font-style:normal;
+font-weight:400;
+height:57px;
+letter-spacing:0.26px;
+line-height:19.5px;
+}
+
+.pic img {
+	width: 75%!important; 
+	margin-left: 23%!important;
+
+}
+
+.odd-pics {
+	margin-left:-6.8% ;
+}
+ 
+  
+  
+}
+
+
+@media only screen and (min-device-width:769px ) and (max-device-width:990px)  and (min-device-height:0px)  {
+ 	body {
+		overflow-x: hidden;
+	}
+
+	.background-of-menu   {
+		width: 41%!important; 
+	}
+	.navbar-light .navbar-toggler {
+    color: yellow!important;
+    border: none;
+    
+	}
+
+	.nav-button {
+		margin-top: -10rem;
+		margin-left: 147%
+	}
+
+	.background-of-menu {
+		 
+		 margin-left:37%
+	}
+
+	.second-section-background {
+	margin-top: -2.7rem
+}
+
+	
+ .navbar-padding li {
+ 	margin-top: -0.9rem;
+ 	margin-bottom: 2rem
+ }
+
+ .second-section-background h5 {
+		font-size:12px;
+		font-weight:700;
+	}
+
+.second-section-background h6 {
+		font-size:10px!important;
+font-weight:700;
+	}	
+
+.carousel {
+	 margin-left: -7.7%;
+	 width: 53.5rem
+}
+
+
+.background-positioning {
+	width: 50%;
+	margin-left: -1.2%!important;
+
+} 
+
+.background-positioning h2 {
+	font-size:30.3206px;
+font-style:normal;
+font-weight:300;
+line-height: 30.3206px	
+}
+
+.background-positioning h5 {
+	font-size:13px;
+font-style:normal;
+font-weight:400;
+height:57px;
+letter-spacing:0.26px;
+line-height:19.5px;
+}
+
+.pic img {
+	width: 75%!important; 
+	margin-left: 23%!important;
+
+}
+
+.projects-1 {
+	margin-bottom: 10rem
+}
+
+.odd-pics {
+	margin-left:-6.8% ;
+}
+
+.end-position {
+	margin-left: -3%!important;
+}
+ 
+ .odd-pics img {
+ 	width: 36.5rem!important
+ }
+  
+.first-picture {
+	margin-bottom: 2rem!important
+}
+ }
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 991px) and (max-device-width: 999px)  and (min-device-height:0px) {
+  /* some CSS here */
+body {
+		overflow-x: hidden;
+	}
+
+	.background-of-menu   {
+		width: 41%!important; 
+	}
+
+	.navigation-padding {
+		margin-top: -8.5rem!important;
+		margin-left: 130%!important
+	}
+
+	.career{
+		margin-top: 0.4rem!important;
+		margin-left: -47%!important
+	}
+
+	.contact {
+		margin-top: 0.4rem!important;
+		margin-left: -1%!important
+	}
+
+	.navbar-light .navbar-toggler {
+    color: yellow!important;
+    border: none;
+    
+	}
+
+	.nav-button {
+		margin-top: -8.5rem;
+		margin-left: 55%
+	}
+
+	 
+
+	.second-section-background {
+	margin-top: -2.7rem
+}
+
+	
+ .navbar-padding li {
+ 	margin-top: -0.9rem;
+ 	margin-bottom: 2rem
+ }
+
+ .second-section-background h5 {
+		font-size:12px;
+		font-weight:700;
+	}
+
+.second-section-background h6 {
+		font-size:10px!important;
+font-weight:700;
+	}	
+
+.carousel {
+	 margin-left: 9.3%!important;
+	 width: 112.5%!important
+}
+
+
+.background-positioning {
+	width: 50%;
+	margin-left: -1.2%!important;
+
+} 
+
+.background-positioning h2 {
+	font-size:30.3206px;
+font-style:normal;
+font-weight:300;
+line-height: 30.3206px	
+}
+
+.background-positioning h5 {
+	font-size:13px;
+font-style:normal;
+font-weight:400;
+height:57px;
+letter-spacing:0.26px;
+line-height:19.5px;
+}
+
+.pic img {
+	width: 75%!important; 
+	margin-left: 23%!important;
+
+}
+
+.projects-1 {
+	margin-bottom: 10rem
+}
+
+.odd-pics {
+	margin-left:-6.8% ;
+}
+
+.end-position {
+	margin-left: -3%!important;
+}
+ 
+ .odd-pics img {
+ 	width: 36.5rem!important
+ }
+  
+.first-picture {
+	margin-bottom: 2rem!important
+}
+
+ 
+
+}
+
+
+
+
+@media only screen and (min-device-width:1000px ) and (max-device-width:1030px) and (min-device-height:0px) {
+ 
+	body {
+		overflow-x: hidden;
+	}
+
+	.background-of-menu {
+		width: 44%;  
+	}
+   
+   .carousel {
+ 	width: 114%;
+ 	margin-left:-7%; 
+ }
+  
+  .navigation-padding {
+  	margin-top: -11rem!important;
+  	margin-left: 127%!important;
+  	
+
+  }
+
+  .career {
+  	margin-left: -45%!important;
+  	margin-top:1rem
+  }
+
+  .contact {
+  	margin-left: -3.4%!important;
+  	margin-top:1rem
+  }
+ 
+ .second-section-background {
+ 	margin-top: -3rem;
+ 	padding: 5rem!important
+ }
+
+ .projects-1 img {
+ 	 width: 70%!important; 
+ 	 margin-left: 36.5%!important
+ }
+
+ .projects-1 {
+ 	margin-left: -6.5%
+ }
+
+ .background-positioning {
+ 	width: 45%;
+
+ }
+
+.background-positioning h2 {
+	font-size:40.68px;
+	line-height:40.68px;
+}
+
+.background-positioning h5{
+	font-size:13px;
+	line-height:19.5px;
+}
+
+.odd-pics img   {
+	 width: 70%!important; 
+	 margin-left: -5%!important
+}
+ 
+}
+
+
+@media only screen and (min-device-width:1030px ) and (max-device-width:1069px) and (min-device-height:0px) {
+ 
+	body {
+		overflow-x: hidden;
+	}
+
+	.background-of-menu {
+		width: 44%;  
+	}
+   
+   .carousel {
+ 	width: 114%;
+ 	margin-left:-7%; 
+ }
+  
+  .navbar-padding {
+  	margin-top: -14rem;
+  	margin-left: 117%;
+  	
+
+  }
+
+  .career {
+  	margin-left: -45%!important;
+  	margin-top:1rem
+  }
+
+  .contact {
+  	margin-left: -3.4%!important;
+  	margin-top:1rem
+  }
+ 
+ .second-section-background {
+ 	margin-top: -3rem;
+ 	padding: 5rem!important
+ }
+
+ .projects-1 img {
+ 	 width: 70%!important; 
+ 	 margin-left: 36.5%!important
+ }
+
+ .projects-1 {
+ 	margin-left: -6.5%
+ }
+
+ .background-positioning {
+ 	width: 45%;
+
+ }
+
+.background-positioning h2 {
+	font-size:40.68px;
+	line-height:40.68px;
+}
+
+.background-positioning h5{
+	font-size:13px;
+	line-height:19.5px;
+}
+
+.odd-pics img   {
+	 width: 70%!important; 
+	 margin-left: -5%!important
+}
+ 
+}
+
+
+
+@media only screen and (min-device-width:1070px ) and (max-device-width:1200px)   and (min-device-height:0px) {
+ 
+	body {
+		overflow-x: hidden;
+	}
+
+	.background-of-menu {
+		  
+		margin-top:-1rem; 
+		margin-left: 35%
+	}
+
+	.background-of-menu img {
+		width: 33%!important;
+		
+	}
+
+
+   .carousel {
+ 	width: 114%;
+ 	margin-left:-7%; 
+ }
+  
+  .navbar-padding {
+  	margin-top: -13rem;
+ 	margin-left: 33%!important
+ 	}
+
+  .contact {
+  	margin-left: -24%!important;
+  	margin-top:1.2rem
+  }
+ 
+ .second-section-background {
+ 	margin-top: -3rem;
+ 	padding: 5rem!important
+ }
+
+ .projects-1 img {
+ 	 width: 70%!important; 
+ 	 margin-left: 36.5%!important
+ }
+
+ .projects-1 {
+ 	margin-left: -6.5%
+ }
+
+ .background-positioning {
+ 	width: 45%;
+
+ }
+
+.background-positioning h2 {
+	font-size:40.68px;
+	line-height:40.68px;
+}
+
+.background-positioning h5{
+	font-size:13px;
+	line-height:19.5px;
+}
+
+.odd-pics img   {
+	 width: 70%!important; 
+	 margin-left: -5%!important
+}
+ 
+}
+
+
+
+@media only screen and (min-device-width:1199px) and (max-device-width:1201px)   and (min-device-height:0px) {
+ 	body {
+		overflow-x: hidden;
+	}
+	.background-of-menu {
+		  
+		margin-top:-1rem; 
+	}
+
+	 .navbar-padding { 
+ 	    margin-left: 3%!important
+ 	}
+
+
+  .contact {
+  	margin-left: -24%!important;
+  	margin-top:1.2rem
+  }
+ 
+ }
+
+@media only screen and (min-device-width:1200px ) and (max-device-width:1254px)   and (min-device-height:0px) {
+ 	
+	body {
+		overflow-x: hidden;
+	}
+	.background-of-menu {
+		  
+		margin-top:-1rem; 
+	}
+
+	 .navbar-padding { 
+ 	    margin-left: 3%!important
+ 	}
+
+
+  .contact {
+  	margin-left: -24%!important;
+  	margin-top:1.2rem
+  }
+ }
+
+
+
+
+
+
+@media only screen and (min-device-width:1255px ) and (max-device-width:1320px)   and (min-device-height:0px) {
+ 	body {
+		overflow-x: hidden;
+	}
+	.background-of-menu {
+		width: 74%; 
+		margin-top: 3rem
+	}
+
+	.carousel {
+		width: 107%;
+		margin-left: -3.5%
+	}
+
+	 .navbar-padding {
+  	margin-top: -0.6rem;
+  }
+   .projects-responsive{
+  	width:105%!important;
+  	margin-left: -2%!important
+  }
+
+  .pic, {
+  	margin-left:25.8%
+  }
+
+  .pic-2-div{
+  	 width: 110%
+  }
+
+  .odd-pics {
+  	margin-left: -3.5%
+  }
+
+  .end-position {
+  	margin-left: 5%!important
+  }
+
+ }
+ 
+
+@media only screen and (min-device-width:1322px ) and (max-device-width:1544px)   and (min-device-height:0px) {
+body {
+		overflow-x: hidden;
+	}
+   .navigation-padding{
+ 	  
+ 	 margin-left: 370%!important 
+ }
+ .background-of-menu {
+ 	width: 45%!important; 
+ }
+
+}
+
+@media only screen and (min-device-width:1544px ) and (max-device-width:1578px)   and (min-device-height:0px) {
+body {
+		overflow-x: hidden;
+	}
+   .navigation-padding{
+ 	  
+ 	 margin-left: 280%!important 
+ }
+ .background-of-menu {
+ 	width: 49%!important;
+ 	margin-left:28%;
+ }
+
+}
+
+
+
+@media only screen and (min-device-width:1579px ) and (max-device-width:1681px)   and (min-device-height:0px) {
+body {
+		overflow-x: hidden;
+	}
+   .navigation-padding{
+ 	  
+ 	 margin-left: 360%!important 
+ }
+ .background-of-menu {
+ 	width: 49%!important; 
+ }
+
+ .carousel {
+ 	width: 90%; 
+ 	margin-left: 6%
+ }
+ 
+ .projects-responsive {
+ 	width:89%;
+ 	 
+ }
+ .projects-1 {
+ 	margin-left: 6%
+ }
+ .projects-10 {
+ 	margin-left: -4.5%
+ }
+ .background-positioning {
+ 	width: 523px
+ }
+
+ .odd-pics {
+ 	margin-left: 10.5%!important
+ }
+
+ .end-position {
+ 	margin-left: -10%!important
+ }
+
+ .projects-10 .background-positioning {
+ 	margin-left: 8.5%!important
+ }
+
+ .Solutions{
+
+    width: 84.5rem!important;
+ }
+
+ .footer{
+ 	width: 68rem!important;
+ 	margin-left: 30.5rem!important
+ } 
+
+ }
+
+
+@media only screen and (min-device-width:1682px ) and (max-device-width:  1862px)  and (min-device-height:0px) {
+	body {
+		overflow-x: hidden;
+	}
+   .navigation-padding{
+ 	  
+ 	 margin-left: 375%!important 
+ }
+ .background-of-menu {
+ 	width: 49%!important; 
+ }
+
+ .carousel {
+ 	width: 90%; 
+ 	margin-left: 9%
+ }
+ 
+ .projects-responsive {
+ 	width:89%;
+ 	 
+ }
+ .projects-1 {
+ 	margin-left: 9%
+ }
+ .background-positioning {
+ 	width: 523px
+ }
+
+ .odd-pics {
+ 	margin-left: 10.5rem 
+ }
+
+ .end-position {
+ 	margin-left: 20%
+ }
+
+ .projects-10 .background-positioning {
+ 	margin-left: 13.5%!important
+ }
+
+ .Solutions{
+
+    width: 84.5rem!important;
+ }
+
+ .footer{
+ 	width: 68rem!important;
+ 	margin-left: 30.5rem!important
+ }
+
+}
+ 
+
+
+
+@media only screen and (min-device-width:2290px ) and (max-device-width:  2600px)  and (min-device-height:0px) {
+	body {
+		overflow-x: hidden;
+	}
+    
+ 
+  .navigation-padding { 
+ 	    margin-left: 490%!important
+ 	}
+ 	.background-of-menu {
+ 		width: 45%!important;
+ 	}
+
+
+ .carousel {
+ 	width: 51%;
+    margin-left: 32%
+ }
+
+ .projects-responsive {
+ 	margin: auto;
+ }
+
+ .background-positioning {
+ 	width: 23.4%
+ }
+ .projects-responsive   {
+ 	width: 50%;
+
+ }
+.projects-responsive img  {
+ 	width: 50%;
+
+ }
+ .pic-trove {
+ 	height: 100rem
+ }
+
+ .projects-1{
+ 	margin-left:  32%
+ }
+
+ .projects-10 {
+ 	margin-left:  5.7%
+ }
+ .Solutions{
+
+    width: 84.5rem!important;
+ }
+
+ .hr-line {
+ 	width: 76rem!important
+ }
+
+ .footer{
+ 	width: 106rem!important;
+ 	margin-left: 41.5rem!important
+ }
+
+ .footer img {
+ 	margin-left: -10%
+ }
+
+ .odd-pics img{
+ 	width: 50%!important;
+ 	margin-left: 41.5%!important
+ }
+
+ .end-position{
+ 	margin-left:7.4%!important
+ }
+
+}
+
+
+
+@media only screen and (min-device-width:2600px ) and (max-device-width:  2680px)  and (min-device-height:0px) {
+	body {
+		overflow-x: hidden;
+	}
+ 
+
+  .navbar-padding { 
+ 	    margin-left: 155%!important
+ 	}
+ 	.background-of-menu {
+ 		width: 50%;
+ 	}
+
+ .carousel {
+ 	width: 49%;
+ 	margin-left:26%
+ }
+
+ .projects-responsive {
+ 	margin: auto;
+ }
+
+ .background-positioning {
+ 	width: 523px
+ }
+ .projects-responsive   {
+ 	width: 80rem;
+
+ }
+.projects-responsive img  {
+ 	width: 80rem;
+
+ }
+ .pic-trove {
+ 	height: 100rem
+ }
+
+ .projects-1 {
+ 	margin-left: 42.5rem
+ }
+ .Solutions{
+
+    width: 84.5rem!important;
+ }
+
+ .hr-line {
+ 	width: 76rem!important
+ }
+
+ .footer{
+ 	width: 106rem!important;
+ 	margin-left: 41.5rem!important
+ }
+
+ .footer img {
+ 	width:  
+ }
+
+ .odd-pics {
+ 	width: 70%!important;
+ 	margin-left: 26%
+ }
+ .odd-pics img {
+ 	width: 53%!important
+ }  
+ .end-position {
+ 	margin-left: 4%!important
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

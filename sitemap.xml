@@ -1,20 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/community/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/comparison/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/technology/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/work/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
   </url>
   
   <url>
     <loc>/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

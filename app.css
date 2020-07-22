@@ -167,6 +167,12 @@ body {
     display: block;
 }
 
+<<<<<<< HEAD
+=======
+.iframe__wrapper {
+  max-width: auto;
+}
+>>>>>>> api
 
 .footer {
     background: #FAFAFA;

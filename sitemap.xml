@@ -3,12 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/community/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/comparison/</loc>
+    <loc>/devsprofile/</loc>
     <priority>0</priority>
   </url>
   

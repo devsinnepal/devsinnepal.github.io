@@ -4,7 +4,31 @@
 	<meta name="generator" content="Hugo 0.74.2" />
     <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Developers survey Nepal!</title>
+
+<title>Devs in Nepal vs. The World</title>
+<meta name="title" content="Devs in Nepal vs. The World">
+<meta name="description" content="This Dashboard allows us to do a comparative study of the coding landscape in Nepal with the rest of the world. This tool will help visualize and understand developers, their demographic and geographic profile, motivation, education, coding preference and several other factors.
+The survey data has been utilized from Stack Overflow. For almost a decade, Stack Overflow’s annual Developer Survey has been the largest survey of people who code around the world. 
+The survey is taken by nearly 65,000 people in 2020.">
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://moonlitplayground.ml/">
+<meta property="og:title" content="Devs in Nepal vs. The World">
+<meta property="og:description" content="This Dashboard allows us to do a comparative study of the coding landscape in Nepal with the rest of the world. This tool will help visualize and understand developers, their demographic and geographic profile, motivation, education, coding preference and several other factors.
+The survey data has been utilized from Stack Overflow. For almost a decade, Stack Overflow’s annual Developer Survey has been the largest survey of people who code around the world. 
+The survey is taken by nearly 65,000 people in 2020.">
+<meta property="og:image" content="">
+
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://moonlitplayground.ml/">
+<meta property="twitter:title" content="Devs in Nepal vs. The World">
+<meta property="twitter:description" content="This Dashboard allows us to do a comparative study of the coding landscape in Nepal with the rest of the world. This tool will help visualize and understand developers, their demographic and geographic profile, motivation, education, coding preference and several other factors.
+The survey data has been utilized from Stack Overflow. For almost a decade, Stack Overflow’s annual Developer Survey has been the largest survey of people who code around the world. 
+The survey is taken by nearly 65,000 people in 2020.">
+<meta property="twitter:image" content="">
+<title>Devs in Nepal vs. The World</title>
 <link
 href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"
 rel="stylesheet"
@@ -12,6 +36,11 @@ rel="stylesheet"
 />
 <link rel="stylesheet" href="/app.css" />
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/data.js"></script>
+<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+<script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
   </head>
   <body >
     
@@ -109,6 +138,8 @@ rel="stylesheet"
     Insights
 </h2>
 
+
+
 <div>
     <ul class="sidebar__list">
         <li class="sidebar__item"><a href="javascript:;" id="1" class="sidebar__link is-active">Introduction to the dashboard </a>
@@ -121,15 +152,80 @@ rel="stylesheet"
     </ul>
 </div>
 
+
             </div>
             <div class="tab__content">
               <div id="1" class="tab__content-item is-active">
                 <div class="tab">
                   
+<h1 class="header__title">Overview</h1>
+<br/>
+<p>
+This dashboard facilitates a comparative study of the coding landscape in Nepal with the rest of the world. This tool will help visualize and understand developers, their demographic and geographic profile, motivation, education, coding preference and several other factors.
 
-This Dashboard allows us to do a comparative study of the coding landscape in Nepal with the rest of the world. This tool will help visualize and understand developers, their demographic and geographic profile, motivation, education, coding preference and several other factors.
-The survey data has been utilized from Stack Overflow. For almost a decade, Stack Overflow’s annual Developer Survey has been the largest survey of people who code around the world. 
-The survey is taken by nearly 65,000 people in 2020.
+<br><br>
+The survey data has been utilized from <a href="https://stackoverflow.com/" target="_blank">StackOverflow</a>. For almost a decade, StackOverflow’s annual Developer Survey has been the largest survey of people who code around the world. 
+The survey is taken by nearly 65,000 people in 2020. 242 people participated from Nepal.
+</p>
+<br>
+<p>While Stackoverflow also publishes its analysis on the survey annually, it primarily has a wide focus on aggregated global trends. <a href="https://moonlit.solutions" target="_blank">Moonlit Solutions</a> puts the spotlight on Nepali software developers and trends in Nepal.</p>
+<br><br>
+
+
+<div id="container" style="height: 500px; width: 100%; margin: 0 auto"></div>
+
+<script>
+  Highcharts.setOptions({
+    lang: {
+    thousandsSep: ""
+  }
+})
+    Highcharts.getJSON('https://raw.githubusercontent.com/ayushsubedi/flood_analysis/master/data_sources/survey.json', function (data) {
+      data[145].color = '#ff1493';
+Highcharts.mapChart('container', {
+  
+  chart: {
+    borderWidth: 0,
+    map: 'custom/world'
+
+  },
+
+  title: {
+    text: 'Stackoverflow Developer Survey 2020 Participants'
+  },
+
+
+  legend: {
+    enabled: false
+  },
+
+  mapNavigation: {
+    enabled: true,
+    buttonOptions: {
+      verticalAlign: 'bottom'
+    }
+  },
+
+  series: [{
+    name: 'Countries',
+    color: '#E0E0E0',
+    enableMouseTracking: false
+  }, {
+    type: 'mapbubble',
+    name: 'Participants',
+    joinBy: ['iso-a3', 'code3'],
+    data: data,
+    minSize: 0,
+    maxSize: '10%',
+    tooltip: {
+      pointFormat: '{point.properties.hc-a2}: {point.z} ',
+      thousandsSep: ""
+    }
+  }]
+});
+});
+
+</script>
                 </div>
               </div>
               <div id="2" class="tab__content-item">

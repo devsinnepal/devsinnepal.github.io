@@ -240,12 +240,651 @@ Send us your hypothesis statements, your insights and your analysis on how you w
 </p>
 <br>
 If things look good, we will add your insight here, and credit your contribution. 
+
+
+<br> <br> <br> <br>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfgCjZptRKcYVkVm2fQY45qrccBmjCnGEzD8rV76oAOrGtjWg/viewform?embedded=true" width="100%" height="677" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
               </div>
               <div id="3" class="tab__content-item">
-                analysis on compensation
+                
+<h1 class="header__title">"Fairly" is an understatement.</h1>
+<br/>
+<p>
+In fact, <strong>the median developer remuneration is the lowest in Nepal ($6300)</strong>.  
+<br><br>
+The median remuneration in the US is $115,000. Broken into hourly pay (40 hours in a week, 52 weeks in a year), a Nepali developer makes $3.03 an hour where as a developer in the US makes $55.30 an hour.
+It is not suprising to see so many gifted and talented pool of devs move for better opportunities. </p>
+<br>
+<p>
+This also implies that Nepal is an untapped market for outsourcing. ...........      
+</p>
+<br><br>
+
+
+<div id="container__@" style="height: 500px; width: 1200px; margin: 0 auto"></div>
+
+<script>
+
+Highcharts.chart('container__@', {
+    
+    chart: {
+      type: 'column'
+    },
+    title: {
+      text: 'Median Yearly Compensation of Devs',
+    },
+    subtitle: {
+      text: 'Nepal had 242 Stackoverflow survey takers. Countries with less than 200 respondent sample size were filtered for this analysis.'
+    },
+    xAxis: {
+      type: 'category',
+      labels: {
+        rotation: -45,
+        style: {
+          fontSize: '13px',
+          fontFamily: 'Verdana, sans-serif'
+        }
+      }
+    },
+    yAxis: {
+      min: 0,
+      title: {
+        text: 'Median Income'
+      }
+    },
+    legend: {
+      enabled: false
+    },
+    tooltip: {
+      pointFormat: 'Median compensation: <b>${point.y:.1f}</b>'
+    },
+    series: [{
+      name: 'Income',
+      data: [['Nepal', 6300.0],
+   ['Pakistan', 6342.0],
+   ['Nigeria', 6588.0],
+   ['Bangladesh', 7068.0],
+   ['Indonesia', 7908.0],
+   ['Philippines', 8292.0],
+   ['Egypt', 8460.0],
+   ['Sri Lanka', 8568.0],
+   ['India', 10056.0],
+   ['Viet Nam', 10344.0],
+   ['Kenya', 10680.0],
+   ['Malaysia', 15276.0],
+   ['Iran', 15672.0],
+   ['Brazil', 17184.0],
+   ['Argentina', 17520.0],
+   ['Colombia', 17652.0],
+   ['Turkey', 17748.0],
+   ['Mexico', 20688.0],
+   ['Greece', 24517.0],
+   ['Serbia', 27528.0],
+   ['Russian Federation', 28304.0],
+   ['Hungary', 28860.0],
+   ['Portugal', 28861.0],
+   ['Bulgaria', 29832.0],
+   ['Romania', 29922.0],
+   ['Ukraine', 30000.0],
+   ['Poland', 33408.0],
+   ['Italy', 35399.0],
+   ['China', 35861.5],
+   ['South Africa', 37494.0],
+   ['Spain', 38915.0],
+   ['Czech Republic', 38976.0],
+   ['South Korea', 40242.5],
+   ['Belgium', 45396.0],
+   ['France', 46482.0],
+   ['Austria', 51888.0],
+   ['Japan', 53957.0],
+   ['Sweden', 54000.0],
+   ['Singapore', 57372.0],
+   ['Finland', 57506.0],
+   ['Netherlands', 58368.0],
+   ['Germany', 62697.0],
+   ['New Zealand', 63890.0],
+   ['United Kingdom', 67215.0],
+   ['Canada', 68068.0],
+   ['Ireland', 75669.0],
+   ['Australia', 76831.0],
+   ['Norway', 80922.0],
+   ['Denmark', 81624.0],
+   ['Israel', 98064.0],
+   ['Switzerland', 98599.0],
+   ['United States', 115000.0]],
+    }]
+  });
+    
+</script>
               </div>
               <div id="4" class="tab__content-item">
-                analysis on remote work
+                <!DOCTYPE html>
+
+
+
+<style>
+    .highcharts-figure, .highcharts-data-table table {
+    min-width: 320px; 
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+#container {
+    height: 500px;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #EBEBEB;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+#csv {
+    display: none;
+}
+
+    </style>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/sankey.js"></script>
+<script src="https://code.highcharts.com/modules/dependency-wheel.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+<figure class="highcharts-figure">
+    <div id="container_wheel"></div>
+    <p class="highcharts-description">
+        Chart showing a dependency wheel, where each point consists of multiple
+        weighted links to other points. This chart type is often used to
+        visualize data flow, and can be a striking way to illustrate
+        relationships in data.
+    </p>
+</figure>
+
+<script>
+
+Highcharts.chart('container_wheel', {
+
+title: {
+    text: 'Highcharts Dependency Wheel'
+},
+
+accessibility: {
+    point: {
+        valueDescriptionFormat: '{index}. From {point.from} to {point.to}: {point.weight}.'
+    }
+},
+
+series: [{
+    keys: ['from', 'to', 'weight'],
+    data: [['Assembly', 'Assembly', 1],
+['Assembly', 'VBA', 1],
+['Assembly', 'TypeScript', 2],
+['Assembly', 'Dart', 5],
+['Assembly', 'Haskell', 3],
+['Assembly', 'C++', 3],
+['Assembly', 'C#', 1],
+['Assembly', 'Rust', 4],
+['Assembly', 'Java', 3],
+['Assembly', 'Go', 4],
+['Assembly', 'Swift', 2],
+['Assembly', 'Kotlin', 3],
+['Assembly', 'C', 2],
+['Assembly', 'Python', 8],
+['Assembly', 'Ruby', 3],
+['Assembly', 'Objective-C', 2],
+['Assembly', 'Bash/Shell/PowerShell', 2],
+['Assembly', 'JavaScript', 7],
+['Assembly', 'HTML/CSS', 4],
+['Assembly', 'SQL', 2],
+['Assembly', 'PHP', 5],
+['Assembly', 'R', 2],
+['VBA', 'TypeScript', 2],
+['VBA', 'Dart', 4],
+['VBA', 'Haskell', 2],
+['VBA', 'Rust', 3],
+['VBA', 'Java', 1],
+['VBA', 'Go', 1],
+['VBA', 'Kotlin', 3],
+['VBA', 'Python', 2],
+['VBA', 'Ruby', 1],
+['VBA', 'Objective-C', 1],
+['VBA', 'Bash/Shell/PowerShell', 2],
+['VBA', 'JavaScript', 2],
+['VBA', 'HTML/CSS', 1],
+['VBA', 'SQL', 2],
+['VBA', 'PHP', 2],
+['VBA', 'R', 1],
+['TypeScript', 'Assembly', 1],
+['TypeScript', 'TypeScript', 34],
+['TypeScript', 'Dart', 10],
+['TypeScript', 'Haskell', 5],
+['TypeScript', 'C++', 10],
+['TypeScript', 'C#', 9],
+['TypeScript', 'Rust', 13],
+['TypeScript', 'Java', 14],
+['TypeScript', 'Go', 18],
+['TypeScript', 'Swift', 3],
+['TypeScript', 'Kotlin', 10],
+['TypeScript', 'C', 4],
+['TypeScript', 'Python', 25],
+['TypeScript', 'Ruby', 6],
+['TypeScript', 'Objective-C', 1],
+['TypeScript', 'Bash/Shell/PowerShell', 17],
+['TypeScript', 'JavaScript', 28],
+['TypeScript', 'HTML/CSS', 22],
+['TypeScript', 'SQL', 21],
+['TypeScript', 'PHP', 7],
+['TypeScript', 'R', 4],
+['Dart', 'TypeScript', 5],
+['Dart', 'Dart', 12],
+['Dart', 'C#', 6],
+['Dart', 'Rust', 2],
+['Dart', 'Java', 6],
+['Dart', 'Go', 5],
+['Dart', 'Swift', 7],
+['Dart', 'Kotlin', 6],
+['Dart', 'C', 2],
+['Dart', 'Python', 13],
+['Dart', 'Ruby', 2],
+['Dart', 'Objective-C', 1],
+['Dart', 'Bash/Shell/PowerShell', 1],
+['Dart', 'JavaScript', 10],
+['Dart', 'HTML/CSS', 8],
+['Dart', 'SQL', 8],
+['Dart', 'PHP', 5],
+['Dart', 'R', 1],
+['Haskell', 'Swift', 1],
+['Haskell', 'Python', 1],
+['Haskell', 'R', 1],
+['C++', 'Assembly', 2],
+['C++', 'VBA', 3],
+['C++', 'TypeScript', 23],
+['C++', 'Dart', 20],
+['C++', 'Haskell', 4],
+['C++', 'C++', 14],
+['C++', 'C#', 15],
+['C++', 'Rust', 13],
+['C++', 'Java', 25],
+['C++', 'Go', 15],
+['C++', 'Swift', 12],
+['C++', 'Kotlin', 12],
+['C++', 'C', 10],
+['C++', 'Python', 44],
+['C++', 'Ruby', 13],
+['C++', 'Objective-C', 4],
+['C++', 'Bash/Shell/PowerShell', 11],
+['C++', 'JavaScript', 46],
+['C++', 'HTML/CSS', 35],
+['C++', 'SQL', 28],
+['C++', 'PHP', 17],
+['C++', 'R', 11],
+['C#', 'Assembly', 1],
+['C#', 'VBA', 2],
+['C#', 'TypeScript', 16],
+['C#', 'Dart', 10],
+['C#', 'Haskell', 6],
+['C#', 'C++', 6],
+['C#', 'C#', 21],
+['C#', 'Rust', 11],
+['C#', 'Java', 12],
+['C#', 'Go', 13],
+['C#', 'Swift', 9],
+['C#', 'Kotlin', 10],
+['C#', 'C', 3],
+['C#', 'Python', 27],
+['C#', 'Ruby', 10],
+['C#', 'Objective-C', 4],
+['C#', 'Bash/Shell/PowerShell', 8],
+['C#', 'JavaScript', 25],
+['C#', 'HTML/CSS', 20],
+['C#', 'SQL', 16],
+['C#', 'PHP', 7],
+['C#', 'R', 7],
+['Rust', 'Assembly', 1],
+['Rust', 'TypeScript', 4],
+['Rust', 'Dart', 2],
+['Rust', 'Haskell', 1],
+['Rust', 'C++', 2],
+['Rust', 'C#', 1],
+['Rust', 'Rust', 5],
+['Rust', 'Go', 4],
+['Rust', 'Swift', 1],
+['Rust', 'Kotlin', 2],
+['Rust', 'C', 2],
+['Rust', 'Python', 4],
+['Rust', 'Ruby', 1],
+['Rust', 'Bash/Shell/PowerShell', 3],
+['Rust', 'JavaScript', 2],
+['Rust', 'HTML/CSS', 2],
+['Rust', 'SQL', 2],
+['Java', 'Assembly', 1],
+['Java', 'VBA', 1],
+['Java', 'TypeScript', 29],
+['Java', 'Dart', 19],
+['Java', 'Haskell', 6],
+['Java', 'C++', 10],
+['Java', 'C#', 17],
+['Java', 'Rust', 13],
+['Java', 'Java', 45],
+['Java', 'Go', 22],
+['Java', 'Swift', 15],
+['Java', 'Kotlin', 21],
+['Java', 'C', 8],
+['Java', 'Python', 53],
+['Java', 'Ruby', 15],
+['Java', 'Objective-C', 4],
+['Java', 'Bash/Shell/PowerShell', 14],
+['Java', 'JavaScript', 54],
+['Java', 'HTML/CSS', 33],
+['Java', 'SQL', 33],
+['Java', 'PHP', 16],
+['Java', 'R', 13],
+['Go', 'TypeScript', 2],
+['Go', 'Dart', 2],
+['Go', 'C++', 1],
+['Go', 'Rust', 3],
+['Go', 'Java', 3],
+['Go', 'Go', 7],
+['Go', 'Swift', 2],
+['Go', 'Kotlin', 2],
+['Go', 'C', 1],
+['Go', 'Python', 3],
+['Go', 'Ruby', 2],
+['Go', 'Objective-C', 1],
+['Go', 'Bash/Shell/PowerShell', 1],
+['Go', 'JavaScript', 5],
+['Go', 'SQL', 3],
+['Go', 'PHP', 2],
+['Swift', 'TypeScript', 1],
+['Swift', 'Dart', 2],
+['Swift', 'Haskell', 1],
+['Swift', 'C++', 1],
+['Swift', 'Rust', 1],
+['Swift', 'Java', 3],
+['Swift', 'Go', 3],
+['Swift', 'Swift', 4],
+['Swift', 'Kotlin', 3],
+['Swift', 'Python', 5],
+['Swift', 'Ruby', 2],
+['Swift', 'Objective-C', 1],
+['Swift', 'Bash/Shell/PowerShell', 1],
+['Swift', 'JavaScript', 4],
+['Swift', 'HTML/CSS', 2],
+['Swift', 'SQL', 3],
+['Swift', 'PHP', 2],
+['Swift', 'R', 1],
+['Kotlin', 'TypeScript', 3],
+['Kotlin', 'Dart', 6],
+['Kotlin', 'Haskell', 2],
+['Kotlin', 'C#', 3],
+['Kotlin', 'Rust', 3],
+['Kotlin', 'Java', 6],
+['Kotlin', 'Go', 7],
+['Kotlin', 'Swift', 4],
+['Kotlin', 'Kotlin', 6],
+['Kotlin', 'C', 1],
+['Kotlin', 'Python', 8],
+['Kotlin', 'Ruby', 2],
+['Kotlin', 'Objective-C', 1],
+['Kotlin', 'Bash/Shell/PowerShell', 2],
+['Kotlin', 'JavaScript', 5],
+['Kotlin', 'HTML/CSS', 3],
+['Kotlin', 'SQL', 4],
+['Kotlin', 'PHP', 2],
+['Kotlin', 'R', 1],
+['C', 'Assembly', 2],
+['C', 'VBA', 3],
+['C', 'TypeScript', 21],
+['C', 'Dart', 21],
+['C', 'Haskell', 6],
+['C', 'C++', 17],
+['C', 'C#', 15],
+['C', 'Rust', 13],
+['C', 'Java', 32],
+['C', 'Go', 18],
+['C', 'Swift', 12],
+['C', 'Kotlin', 16],
+['C', 'C', 13],
+['C', 'Python', 54],
+['C', 'Ruby', 18],
+['C', 'Objective-C', 5],
+['C', 'Bash/Shell/PowerShell', 12],
+['C', 'JavaScript', 48],
+['C', 'HTML/CSS', 40],
+['C', 'SQL', 32],
+['C', 'PHP', 20],
+['C', 'R', 13],
+['Python', 'Assembly', 2],
+['Python', 'VBA', 1],
+['Python', 'TypeScript', 23],
+['Python', 'Dart', 17],
+['Python', 'Haskell', 6],
+['Python', 'C++', 16],
+['Python', 'C#', 15],
+['Python', 'Rust', 17],
+['Python', 'Java', 30],
+['Python', 'Go', 26],
+['Python', 'Swift', 9],
+['Python', 'Kotlin', 10],
+['Python', 'C', 11],
+['Python', 'Python', 59],
+['Python', 'Ruby', 15],
+['Python', 'Objective-C', 3],
+['Python', 'Bash/Shell/PowerShell', 16],
+['Python', 'JavaScript', 44],
+['Python', 'HTML/CSS', 32],
+['Python', 'SQL', 34],
+['Python', 'PHP', 16],
+['Python', 'R', 15],
+['Ruby', 'TypeScript', 1],
+['Ruby', 'Dart', 2],
+['Ruby', 'Haskell', 1],
+['Ruby', 'C#', 1],
+['Ruby', 'Rust', 1],
+['Ruby', 'Java', 3],
+['Ruby', 'Go', 5],
+['Ruby', 'Swift', 2],
+['Ruby', 'Kotlin', 1],
+['Ruby', 'C', 1],
+['Ruby', 'Python', 4],
+['Ruby', 'Ruby', 5],
+['Ruby', 'Objective-C', 1],
+['Ruby', 'Bash/Shell/PowerShell', 2],
+['Ruby', 'JavaScript', 5],
+['Ruby', 'HTML/CSS', 3],
+['Ruby', 'SQL', 4],
+['Ruby', 'PHP', 2],
+['Ruby', 'R', 2],
+['Objective-C', 'TypeScript', 2],
+['Objective-C', 'Dart', 3],
+['Objective-C', 'Haskell', 1],
+['Objective-C', 'C#', 1],
+['Objective-C', 'Rust', 1],
+['Objective-C', 'Java', 3],
+['Objective-C', 'Go', 4],
+['Objective-C', 'Swift', 2],
+['Objective-C', 'Kotlin', 2],
+['Objective-C', 'Python', 4],
+['Objective-C', 'Ruby', 3],
+['Objective-C', 'Objective-C', 1],
+['Objective-C', 'Bash/Shell/PowerShell', 1],
+['Objective-C', 'JavaScript', 5],
+['Objective-C', 'HTML/CSS', 3],
+['Objective-C', 'SQL', 2],
+['Objective-C', 'PHP', 3],
+['Objective-C', 'R', 2],
+['Bash/Shell/PowerShell', 'Assembly', 2],
+['Bash/Shell/PowerShell', 'VBA', 1],
+['Bash/Shell/PowerShell', 'TypeScript', 15],
+['Bash/Shell/PowerShell', 'Dart', 10],
+['Bash/Shell/PowerShell', 'Haskell', 5],
+['Bash/Shell/PowerShell', 'C++', 7],
+['Bash/Shell/PowerShell', 'C#', 4],
+['Bash/Shell/PowerShell', 'Rust', 12],
+['Bash/Shell/PowerShell', 'Java', 11],
+['Bash/Shell/PowerShell', 'Go', 16],
+['Bash/Shell/PowerShell', 'Swift', 2],
+['Bash/Shell/PowerShell', 'Kotlin', 6],
+['Bash/Shell/PowerShell', 'C', 5],
+['Bash/Shell/PowerShell', 'Python', 24],
+['Bash/Shell/PowerShell', 'Ruby', 7],
+['Bash/Shell/PowerShell', 'Objective-C', 3],
+['Bash/Shell/PowerShell', 'Bash/Shell/PowerShell', 20],
+['Bash/Shell/PowerShell', 'JavaScript', 22],
+['Bash/Shell/PowerShell', 'HTML/CSS', 16],
+['Bash/Shell/PowerShell', 'SQL', 14],
+['Bash/Shell/PowerShell', 'PHP', 11],
+['Bash/Shell/PowerShell', 'R', 5],
+['JavaScript', 'Assembly', 3],
+['JavaScript', 'VBA', 2],
+['JavaScript', 'TypeScript', 58],
+['JavaScript', 'Dart', 27],
+['JavaScript', 'Haskell', 7],
+['JavaScript', 'C++', 22],
+['JavaScript', 'C#', 26],
+['JavaScript', 'Rust', 27],
+['JavaScript', 'Java', 41],
+['JavaScript', 'Go', 39],
+['JavaScript', 'Swift', 15],
+['JavaScript', 'Kotlin', 17],
+['JavaScript', 'C', 15],
+['JavaScript', 'Python', 83],
+['JavaScript', 'Ruby', 17],
+['JavaScript', 'Objective-C', 4],
+['JavaScript', 'Bash/Shell/PowerShell', 28],
+['JavaScript', 'JavaScript', 91],
+['JavaScript', 'HTML/CSS', 55],
+['JavaScript', 'SQL', 51],
+['JavaScript', 'PHP', 28],
+['JavaScript', 'R', 12],
+['HTML/CSS', 'Assembly', 2],
+['HTML/CSS', 'VBA', 2],
+['HTML/CSS', 'TypeScript', 44],
+['HTML/CSS', 'Dart', 26],
+['HTML/CSS', 'Haskell', 4],
+['HTML/CSS', 'C++', 20],
+['HTML/CSS', 'C#', 28],
+['HTML/CSS', 'Rust', 19],
+['HTML/CSS', 'Java', 43],
+['HTML/CSS', 'Go', 30],
+['HTML/CSS', 'Swift', 12],
+['HTML/CSS', 'Kotlin', 19],
+['HTML/CSS', 'C', 15],
+['HTML/CSS', 'Python', 82],
+['HTML/CSS', 'Ruby', 22],
+['HTML/CSS', 'Objective-C', 4],
+['HTML/CSS', 'Bash/Shell/PowerShell', 26],
+['HTML/CSS', 'JavaScript', 86],
+['HTML/CSS', 'HTML/CSS', 67],
+['HTML/CSS', 'SQL', 53],
+['HTML/CSS', 'PHP', 31],
+['HTML/CSS', 'R', 17],
+['SQL', 'Assembly', 1],
+['SQL', 'VBA', 2],
+['SQL', 'TypeScript', 35],
+['SQL', 'Dart', 23],
+['SQL', 'Haskell', 5],
+['SQL', 'C++', 13],
+['SQL', 'C#', 25],
+['SQL', 'Rust', 18],
+['SQL', 'Java', 37],
+['SQL', 'Go', 25],
+['SQL', 'Swift', 9],
+['SQL', 'Kotlin', 16],
+['SQL', 'C', 9],
+['SQL', 'Python', 62],
+['SQL', 'Ruby', 16],
+['SQL', 'Objective-C', 4],
+['SQL', 'Bash/Shell/PowerShell', 20],
+['SQL', 'JavaScript', 56],
+['SQL', 'HTML/CSS', 42],
+['SQL', 'SQL', 57],
+['SQL', 'PHP', 21],
+['SQL', 'R', 13],
+['PHP', 'Assembly', 1],
+['PHP', 'VBA', 2],
+['PHP', 'TypeScript', 23],
+['PHP', 'Dart', 14],
+['PHP', 'Haskell', 3],
+['PHP', 'C++', 7],
+['PHP', 'C#', 12],
+['PHP', 'Rust', 8],
+['PHP', 'Java', 22],
+['PHP', 'Go', 16],
+['PHP', 'Swift', 8],
+['PHP', 'Kotlin', 9],
+['PHP', 'C', 5],
+['PHP', 'Python', 48],
+['PHP', 'Ruby', 11],
+['PHP', 'Objective-C', 4],
+['PHP', 'Bash/Shell/PowerShell', 15],
+['PHP', 'JavaScript', 38],
+['PHP', 'HTML/CSS', 27],
+['PHP', 'SQL', 21],
+['PHP', 'PHP', 24],
+['PHP', 'R', 8],
+['R', 'TypeScript', 3],
+['R', 'Dart', 1],
+['R', 'C#', 2],
+['R', 'Java', 2],
+['R', 'Go', 1],
+['R', 'Kotlin', 2],
+['R', 'Python', 6],
+['R', 'Bash/Shell/PowerShell', 2],
+['R', 'JavaScript', 2],
+['R', 'HTML/CSS', 3],
+['R', 'SQL', 3],
+['R', 'PHP', 1],
+['R', 'R', 4]]
+    ,
+    type: 'dependencywheel',
+    name: 'Dependency wheel series',
+    dataLabels: {
+        color: '#333',
+        textPath: {
+            enabled: true,
+            attributes: {
+                dy: 5
+            }
+        },
+        distance: 10
+    },
+    size: '95%'
+}]
+
+});
+    
+
+</script>
+
+
+
+</html>
               </div>
               <div id="5" class="tab__content-item">
                 analysis on women devs
